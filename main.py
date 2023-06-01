@@ -11,7 +11,7 @@ def attack(char_name: str, char_class: str):
         return (f'{char_name} нанёс урон противнику равный '
                 f'{5 + randint(5, 10)}')
     if char_class == 'healer':
-        return (f'{char_name} нанёс урон противнику равный '
+        return (f'{char_name} нанёс урон противнику авный '
                 f'{5 + randint(-3, -1)}')
 
 
